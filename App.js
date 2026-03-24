@@ -1,3 +1,10 @@
+{
+  "expo": {
+    "name": "Plywood Orders",
+    "slug": "plywood-orders",
+    "icon": "./assets/icon.png"
+  }
+}
 import React, {useState} from "react";
 import {View,Text,TextInput,FlatList,TouchableOpacity,StyleSheet} from "react-native";
 import {formatNumber,calcTotalEXW,calcSellAmount,calcProfit} from "./utils";
